@@ -17,9 +17,6 @@ div.navigation
 
 #flowsnake3
 {
-    position: absolute;
-    left: 10px;
-    top: 10px;
     font-size: 3.5pt;
 }
 
@@ -50,7 +47,6 @@ p
 
 .accordionwrapper
 {
-    margin-top: 175px;
 }
 
 .accordion {
@@ -90,56 +86,13 @@ p
         float: right;
     }
 }
-
+*/
 
 @media only screen and (max-width: 600px)
 {
-        
     
-    div.navigation
-    {
-
-    }
-    
-    #flowsnake3
-    {
-        float:none;
-        margin: 0 auto;
-    }
-    
-    
-    body
-    {
-        
-    }
-    
-    div.content
-    {
-        width: 70%;
-    }
-
-    h1
-    {
-    }
-    
-    h1.title
-    {
-        margin-left: 5px;
-    }
-    
-    .accordionwrapper   
-    {
-        width: 20%
-    }
-    
-    .accordion, .panel
-    {
-        font-size: 10pt;
-    }
-    
-    .panel
-    {
-        padding-left: 0;
-    }
-
-}*/
+#flowsnake3
+{
+    font-size: 3pt;
+}
+}
