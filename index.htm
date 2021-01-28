@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<title> Title </title>
+<link rel="stylesheet" type="text/css" href="styles.css">
+<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+</head>
+<body>
+    <div class="global">
+    <div class="content">
+    <div class="navigation">
+    <div id="flowsnake3">
+    <pre>                      ____
+                 ____ \__ \
+                 \__ \__/ / __
+                 __/ ____ \ \ \    ____
+                / __ \__ \ \/ / __ \__ \
+           ____ \ \ \__/ / __ \/ / __/ / __
+      ____ \__ \ \/ ____ \/ / __/ / __ \ \ \
+      \__ \__/ / __ \__ \__/ / __ \ \ \ \/
+      __/ ____ \ \ \__/ ____ \ \ \ \/ / __
+     / __ \__ \ \/ ____ \__ \ \/ / __ \/ /
+     \ \ \__/ / __ \__ \__/ / __ \ \ \__/
+      \/ ____ \/ / __/ ____ \ \ \ \/ ____
+         \__ \__/ / __ \__ \ \/ / __ \__ \
+         __/ ____ \ \ \__/ / __ \/ / __/ / __
+        / __ \__ \ \/ ____ \/ / __/ / __ \/ /
+        \/ / __/ / __ \__ \__/ / __ \/ / __/
+        __/ / __ \ \ \__/ ____ \ \ \__/ / __
+       / __ \ \ \ \/ ____ \__ \ \/ ____ \/ /
+       \ \ \ \/ / __ \__ \__/ / __ \__ \__/
+        \/ / __ \/ / __/ ____ \ \ \__/
+           \ \ \__/ / __ \__ \ \/
+            \/      \ \ \__/ / __
+                     \/ ____ \/ /
+                        \__ \__/
+                        __/
+    </pre>
+    </div>
+        <div class="accordionwrapper">
+<h2>Animated Accordion</h2>
+<p>Click on the buttons to open the collapsible content.</p>
+
+<button class="accordion">Section 1</button>
+<div class="panel">
+  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+</div>
+
+<button class="accordion">Section 2</button>
+<div class="panel">
+  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+</div>
+
+<button class="accordion">Section 3</button>
+<div class="panel">
+  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+</div>
+            </div>
+    </div>
+        <h1 class="title">Hello World</h1>
+        <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc sit amet urna at dui sollicitudin efficitur id in neque. Vivamus sit amet diam cursus, pretium urna sit amet, pulvinar nisl. Sed rhoncus erat porta venenatis tincidunt. Proin vehicula aliquet augue id volutpat. Sed quis massa eget eros lacinia lobortis mattis ut diam. Phasellus feugiat ex quam, ac ultricies turpis blandit et. Vestibulum tempus metus nunc, vel imperdiet tellus dapibus at. Proin pellentesque turpis vitae tincidunt tincidunt. Vivamus scelerisque augue a tortor finibus faucibus. Curabitur ut vehicula nisi. Morbi libero mi, consectetur ut nisl in, tincidunt interdum urna.
+        </p>
+        <p>
+            Morbi est turpis, volutpat at eros vitae, mollis rhoncus neque. Sed a tortor quis lacus imperdiet auctor. Cras rhoncus ex varius molestie commodo. Sed ullamcorper interdum ornare. Quisque commodo fermentum lorem eu gravida. Phasellus a volutpat leo, id fermentum enim. Quisque auctor velit convallis diam feugiat facilisis. Maecenas velit lorem, egestas eu congue sed, scelerisque in neque. Nam non faucibus ligula. Vestibulum eget eros eget tellus tempus iaculis quis vel purus. Mauris tristique eget velit ut consequat.
+        </p>
+        <p>
+            Proin ultricies libero vel purus posuere ornare. Sed eleifend laoreet massa. Aenean ut lectus viverra sem venenatis mattis eget at diam. Donec pellentesque scelerisque enim, vitae finibus est hendrerit quis. Vivamus vehicula elit ornare ligula condimentum, et viverra massa porta. Integer ac dapibus leo, in mattis lectus. Phasellus at risus quis risus pellentesque venenatis at vel est. Etiam odio massa, blandit egestas nibh sed, ullamcorper imperdiet sem. Phasellus tellus diam, consequat nec elit in, gravida porttitor justo.
+        </p>
+    </div>
+    </div>
+    <script>
+var acc = document.getElementsByClassName("accordion");
+var i;
+
+for (i = 0; i < acc.length; i++) {
+  acc[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var panel = this.nextElementSibling;
+    if (panel.style.maxHeight){
+      panel.style.maxHeight = null;
+    } else {
+      panel.style.maxHeight = panel.scrollHeight + "px";
+    } 
+  });
+}
+</script>
+
+</body>
+</html>

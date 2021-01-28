@@ -1,0 +1,138 @@
+div.navigation
+{
+    
+}
+
+#flowsnake3
+{
+    position: absolute;
+    left: 10px;
+    top: 10px;
+    background-color: #fff;
+    width: 53ch;
+    font-size: 3.5pt;
+}
+
+body
+{
+    background-color: #fdffbf;
+    background-image: linear-gradient(to top right,#fdffbf, #e6f2ff);
+);
+    font-family: 'Roboto', sans-serif;
+}
+
+div.global
+{
+
+}
+
+div.content
+{
+    background-color: #fff;
+    margin: 0 auto;
+    padding: 10px;
+    width: 66.67%; 
+}
+
+h1
+{
+    
+}
+
+h1.title
+{
+}
+
+p
+{
+    padding: 0 10px;
+}
+
+/* Accordion styles */
+
+.accordionwrapper
+{
+    width: 15%;
+    position: absolute;
+    left: 10px;
+    top: 20ch;
+    
+}
+
+.accordion {
+    background-color: #eee;
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+    transition: 0.4s;
+}
+
+.active, .accordion:hover {
+    background-color: #ccc;
+}
+
+.panel {
+    padding: 0 18px;
+    background-color: white;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+}
+
+
+@media only screen and (max-width: 960px)
+{
+    #flowsnake3
+    {
+        position:static;
+        float: left;
+    }
+    
+    div.content
+    {
+        width: 80%;
+    }
+}
+
+
+@media only screen and (max-width: 600px)
+{
+        
+    
+    div.navigation
+    {
+
+    }
+    
+    #flowsnake3
+    {
+        float:none;
+        margin: 0 auto;
+    }
+    
+    
+    body
+    {
+        
+    }
+    
+    div.content
+    {
+        width: 90%;
+    }
+
+    h1
+    {
+    }
+    
+    h1.title
+    {
+        margin-left: 5px;
+    }
+    
+}
