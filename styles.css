@@ -96,6 +96,7 @@ p
     div.content
     {
         width: 80%;
+        float: right;
     }
 }
 
@@ -123,7 +124,7 @@ p
     
     div.content
     {
-        width: 90%;
+        width: 70%;
     }
 
     h1
@@ -135,4 +136,19 @@ p
         margin-left: 5px;
     }
     
+    .accordionwrapper   
+    {
+        width: 20%
+    }
+    
+    .accordion, .panel
+    {
+        font-size: 10pt;
+    }
+    
+    .panel
+    {
+        padding-left: 0;
+    }
+
 }
